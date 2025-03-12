@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3c50e0;
+}
+
+.hide { 
+    display: none;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    width: min(90vw, 500px);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 2rem;
+}
+
+.container {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.wrapper textarea {
+    width: 80%;
+    border: 1px solid #000000;
+}
+
+.wrapper button {
+    position: relative;
+    width: 18%;
+    padding: 0.5rem 0;
+    bottom: 10px;
+    background-color: #3c50e0;
+    border: none;
+    color: #ffffff;
+}
